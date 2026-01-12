@@ -1,0 +1,14 @@
+package tresEnRaya;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class tresEnRaya1 {
+public static void main(String[]args) {
+	//Creando tablero juego
+	char jugador1 = 'O';
+	char jugador2 = 'X';
+	char[][] tablero = {{'v','v','v'},{'v','v','v'},{'v','v','v'}}; 
+	System.out.println(Arrays.toString(tablero));
+	
+}
+}
